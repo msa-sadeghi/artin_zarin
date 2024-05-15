@@ -1,0 +1,30 @@
+.card{
+    padding: 15px;
+    box-shadow: 1px 1px 1px red;
+    
+}
+*, body{
+    font-family: vazir;
+}
+.card .card-header{
+    font-family: vazir-bold;
+    text-align: center;
+    border-bottom: 1px dashed red;
+}
+.card .card-body{
+    margin-top: 15px;
+
+}
+@font-face {
+    font-family: vazir;
+    src: url(./Vazirmatn-Regular.woff2);
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url(./Vazirmatn-Bold.woff2);
+}
+
+ ul li a{
+color: wheat;
+margin: 15px;
+}

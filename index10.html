@@ -19,32 +19,35 @@
         padding: 0;
       }
       .container {
-        margin: 50px auto 0;
-        background-color: #efefef;
-        width: 1280px;
-        height: 100vh;
+        margin: 0 auto;
+
+        max-width: 1280px;
+
         border-radius: 10px;
         font-size: 28px;
       }
-      nav {
+      nav.first-child {
         text-align: center;
         background-color: #c5c1c1;
         border-radius: 10px 10px 0 0;
-        padding: 10px;
+        padding: 5px;
       }
-      nav ul li {
+      nav.first-child ul li {
         display: inline;
-        padding: 10px;
       }
       nav ul li a {
         color: black;
         text-decoration: none;
       }
-      nav ul li:hover {
-        background-color: #979090;
+      nav ul {
+        list-style: none;
+      }
+      nav ul > li:not(.sub-menu) {
+      }
+      nav.first-child ul li:hover {
         border-bottom: 2px solid #6e6767;
       }
-      nav ul li:active {
+      nav.first-child ul li:active {
         background-color: red;
       }
       .small {
@@ -62,20 +65,47 @@
       .sub-menu {
         position: absolute;
         background-color: #c5c1c1;
-        text-align: left;
-        top: 52px;
+        text-align: center;
+        top: 36px;
         left: 4px;
         display: none;
       }
       .sub-menu li {
         display: block;
-        min-width: 200px;
+      }
+      .container-fluid {
+        width: 100%;
+        background-color: #176e5b;
+        height: 100px;
+      }
+      main {
+        height: 100vh;
+        background-color: #8f1919;
+      }
+
+      main aside {
+        background-color: #b9b3b3;
+        border-radius: 0px 20px 0px 20px;
+        min-width: 15%;
+        height: 300px;
+        float: left;
+        margin-top: 50px;
+      }
+      main aside ~ div {
+        border-radius: 10px;
+        float: right;
+        height: 100%;
+      }
+      main aside ~ div img {
+        height: 100%;
+        width: 100%;
       }
     </style>
   </head>
   <body>
+    <div class="container-fluid"></div>
     <div class="container">
-      <nav>
+      <nav class="first-child">
         <ul>
           <li>
             <i class="fa-solid fa-house small p-10"></i><a href="">Home</a>
@@ -94,6 +124,19 @@
           <li><a href="">ContactUs</a></li>
         </ul>
       </nav>
+      <main>
+        <aside>
+          <nav>
+            <ul>
+              <li><a href="">gallery</a></li>
+              <li><a href="">products</a></li>
+              <li><a href="">news</a></li>
+              <li><a href="">blalalla</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div><img src="./car.jpg" alt="" /></div>
+      </main>
     </div>
   </body>
 </html>
