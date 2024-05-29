@@ -1,0 +1,57 @@
+/* .transform{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    perspective:500px
+    
+}
+
+.child{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%) rotateX(60deg)
+
+}
+
+
+.test1, .test2{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+.test2{
+    backface-visibility: hidden;
+}
+.test1:hover{
+    transform: rotateY(180deg);
+}
+.test2:hover{
+    transform: rotateY(180deg);
+} */
+
+.test3{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(1,-0.75, 0.58, 1);
+   
+    
+    }
+
+.test3:hover{
+    background-color: green;
+    border-bottom: 2px solid red;
+    transform: translateX(100px)
+}

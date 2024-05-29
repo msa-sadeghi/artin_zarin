@@ -29,6 +29,11 @@ a{
     display: table;
 }
 
+.img-responsive{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .mt-10{
     margin-top: 10px;
 }
