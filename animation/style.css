@@ -38,7 +38,7 @@
     transform: rotateY(180deg);
 } */
 
-.test3{
+/* .test3{
     margin-bottom: 20px;
     width: 200px;
     height: 200px;
@@ -54,4 +54,98 @@
     background-color: green;
     border-bottom: 2px solid red;
     transform: translateX(100px)
+} */
+
+/* .loading{
+    width: 100px;
+    height: 100px;
+    border: 10px dotted #efefef;
+    border-left: 10px dotted rgb(25, 23, 23);
+    border-radius: 50%;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    animation: my 2s linear infinite;
+
+}
+@keyframes my {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+/* .test{
+    position: relative;
+    top: 0;
+    left:0;
+    width: 80px;
+    height: 80px;
+    background-color: lightgreen;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+
+ 
+     0%{
+        background-color: lightgreen;
+        left:0;
+        top:0
+    }
+    25%{
+        background-color: red;
+        left:400px;
+        top:0
+    }
+
+   50%{
+        background-color: rgb(25, 171, 197);
+        left:400px;
+        top:400px
+    }
+    75%{
+        background-color: rgb(106, 16, 52);
+        left:0;
+        top:400px
+    }
+    100%{
+        background-color: lightgreen;
+        left:0;
+        top:0
+    }  
+} */
+
+.flip-card{
+    width: 300px;
+    height: 400px;
+    perspective: 800px;
+    
+}
+
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+.flip-card-back{
+    background-color: aqua;
+    color: white;
+    transform: rotateY(180deg);
 }
