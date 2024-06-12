@@ -1,0 +1,52 @@
+
+*, body{
+    font-family: vazir;
+    direction: rtl;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(./Vazirmatn-Regular.woff2);
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url(./Vazirmatn-Bold.woff2);
+}
+
+
+.container-fluid-custom{
+    background-color: rgb(1,1,126);
+    color:#fff;
+    height: 40px;
+}
+
+.contacts{
+    font-size: 15px;
+}
+.contacts i {
+    color: orange;
+    margin-left: 15px;
+    vertical-align:-2px;
+}
+.contacts span{
+    color:#fff;
+    vertical-align: 1px;
+}
+
+.social-media{
+    direction: ltr;
+}
+.social-media a{
+    margin-right: 7px;
+    padding: 12px;
+    
+    
+    
+}
+.social-media a:hover{
+    background-color: orange;
+}
+.social-media a{
+    color: white;
+    
+    }
