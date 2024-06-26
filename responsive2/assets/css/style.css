@@ -1,52 +1,74 @@
+@import url(./_contact.css);
+
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazirmatn-Regular.woff2);
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url(../font/Vazirmatn-Bold.woff2);
+}
 
 *, body{
     font-family: vazir;
     direction: rtl;
 }
 
-@font-face {
-    font-family: vazir;
-    src: url(./Vazirmatn-Regular.woff2);
-}
-@font-face {
-    font-family: vazir-bold;
-    src: url(./Vazirmatn-Bold.woff2);
-}
-
-
 .container-fluid-custom{
     background-color: rgb(1,1,126);
     color:#fff;
-    height: 40px;
+    /* height: 40px; */
 }
 
-.contacts{
-    font-size: 15px;
-}
-.contacts i {
-    color: orange;
-    margin-left: 15px;
-    vertical-align:-2px;
-}
-.contacts span{
-    color:#fff;
-    vertical-align: 1px;
+
+.nav{
+    background-color: #efefef;
+    overflow: hidden;   
+    position: sticky;
+    top:0;
+    z-index: 9999;
 }
 
-.social-media{
-    direction: ltr;
+
+
+.nav a {
+    float: right;
+    color: rgb(46,46,46);
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 18px;
+    border-bottom: 0 solid transparent;
+    transition: all .2s ease;
+   
 }
-.social-media a{
-    margin-right: 7px;
-    padding: 12px;
-    
-    
-    
+.nav a:hover{
+    border-bottom: 2px solid red;
 }
-.social-media a:hover{
-    background-color: orange;
+
+.icon{
+    display: none;
 }
-.social-media a{
-    color: white;
-    
+
+@media screen and (max-width:600px){
+    .nav a:not(:first-child)
+    {display: none;}
+    .nav a.icon{
+        display: block;
+        float: left;
+
     }
+    .nav.responsive{
+        position: relative;
+    }
+    .nav.responsive a{
+        display: block;
+        float: none;
+        text-align: right;
+    }
+    .nav.responsive a.icon{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+}

@@ -1,0 +1,30 @@
+
+.contacts{
+    font-size: 15px;
+}
+.contacts i {
+    color: orange;
+    margin-left: 15px;
+    /* vertical-align:-3px; */
+}
+.contacts span{
+    color:#fff;
+    /* vertical-align: 1px; */
+}
+.social-media{
+    direction: ltr;
+}
+.social-media a{
+    color: white;
+    margin-right: 7px;
+    padding: 10px;
+    
+    
+   
+}
+.social-media i{
+    
+}
+.social-media a:hover{
+    background-color: orange;
+}
