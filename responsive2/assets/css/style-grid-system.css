@@ -31,11 +31,17 @@ a{
 
 .img-responsive{
     width: 100%;
-    height: auto;
+    /* height: auto; */
     display: block;
+}
+.clear-fix{
+    clear: both;
 }
 .mt-10{
     margin-top: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
 }
 .gray-color{
     background-color: gray;
@@ -46,7 +52,15 @@ a{
 .yellow-color{
     background-color: yellow;
 }
-
+.p-0{
+    padding: 0;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .hidden{
@@ -64,6 +78,18 @@ a{
     .col-xs-10 {width: 83.33%;}
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
+    .col-xs-offset-1 {margin-right: 8.33%;}
+    .col-xs-offset-2 {margin-right: 16.66%;}
+    .col-xs-offset-3 {margin-right: 25%;}
+    .col-xs-offset-4 {margin-right: 33.33%;}
+    .col-xs-offset-5 {margin-right: 41.66%;}
+    .col-xs-offset-6 {margin-right: 50%;}
+    .col-xs-offset-7 {margin-right: 58.33%;}
+    .col-xs-offset-8 {margin-right: 66.66%;}
+    .col-xs-offset-9 {margin-right: 75%;}
+    .col-xs-offset-10 {margin-right: 83.33%;}
+    .col-xs-offset-11 {margin-right: 91.66%;}
+    .col-xs-offset-12 {margin-right: 100%;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -83,6 +109,18 @@ a{
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+    .col-s-offset-1 {margin-right: 8.33%;}
+    .col-s-offset-2 {margin-right: 16.66%;}
+    .col-s-offset-3 {margin-right: 25%;}
+    .col-s-offset-4 {margin-right: 33.33%;}
+    .col-s-offset-5 {margin-right: 41.66%;}
+    .col-s-offset-6 {margin-right: 50%;}
+    .col-s-offset-7 {margin-right: 58.33%;}
+    .col-s-offset-8 {margin-right: 66.66%;}
+    .col-s-offset-9 {margin-right: 75%;}
+    .col-s-offset-10 {margin-right: 83.33%;}
+    .col-s-offset-11 {margin-right: 91.66%;}
+    .col-s-offset-12 {margin-right: 100%;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -99,6 +137,18 @@ a{
     .col-md-10 {width: 83.33%;}
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
+    .col-md-offset-1 {margin-right: 8.33%;}
+    .col-md-offset-2 {margin-right: 16.66%;}
+    .col-md-offset-3 {margin-right: 25%;}
+    .col-md-offset-4 {margin-right: 33.33%;}
+    .col-md-offset-5 {margin-right: 41.66%;}
+    .col-md-offset-6 {margin-right: 50%;}
+    .col-md-offset-7 {margin-right: 58.33%;}
+    .col-md-offset-8 {margin-right: 66.66%;}
+    .col-md-offset-9 {margin-right: 75%;}
+    .col-md-offset-10 {margin-right: 83.33%;}
+    .col-md-offset-11 {margin-right: 91.66%;}
+    .col-md-offset-12 {margin-right: 100%;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -115,6 +165,18 @@ a{
     .col-l-10 {width: 83.33%;}
     .col-l-11 {width: 91.66%;}
     .col-l-12 {width: 100%;}
+    .col-l-offset-1 {margin-right: 8.33%;}
+    .col-l-offset-2 {margin-right: 16.66%;}
+    .col-l-offset-3 {margin-right: 25%;}
+    .col-l-offset-4 {margin-right: 33.33%;}
+    .col-l-offset-5 {margin-right: 41.66%;}
+    .col-l-offset-6 {margin-right: 50%;}
+    .col-l-offset-7 {margin-right: 58.33%;}
+    .col-l-offset-8 {margin-right: 66.66%;}
+    .col-l-offset-9 {margin-right: 75%;}
+    .col-l-offset-10 {margin-right: 83.33%;}
+    .col-l-offset-11 {margin-right: 91.66%;}
+    .col-l-offset-12 {margin-right: 100%;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -131,4 +193,16 @@ a{
     .col-xl-10 {width: 83.33%;}
     .col-xl-11 {width: 91.66%;}
     .col-xl-12 {width: 100%;}
+    .col-xl-offset-1 {margin-right: 8.33%;}
+    .col-xl-offset-2 {margin-right: 16.66%;}
+    .col-xl-offset-3 {margin-right: 25%;}
+    .col-xl-offset-4 {margin-right: 33.33%;}
+    .col-xl-offset-5 {margin-right: 41.66%;}
+    .col-xl-offset-6 {margin-right: 50%;}
+    .col-xl-offset-7 {margin-right: 58.33%;}
+    .col-xl-offset-8 {margin-right: 66.66%;}
+    .col-xl-offset-9 {margin-right: 75%;}
+    .col-xl-offset-10 {margin-right: 83.33%;}
+    .col-xl-offset-11 {margin-right: 91.66%;}
+    .col-xl-offset-12 {margin-right: 100%;}
 }

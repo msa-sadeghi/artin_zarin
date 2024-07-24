@@ -72,3 +72,156 @@
     }
     
 }
+
+.overlay{
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    height: 100vh;
+    top: 0;
+    left:0;
+}
+
+figure img{
+    background-color: red;
+    height: 100vh;
+}
+
+.header-title{
+    color: #fff;
+    margin: 300px;
+    max-width: 300px;
+}
+.header-title a{
+    background-color: orange;
+    padding: 5px 1px;
+    border-radius: 3px;
+    color:#fff;
+    float: left;
+
+}
+
+@media screen and (max-width:1200px) {
+    .header-title{
+        width:100%;
+        margin: 0;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        color:#000;
+        padding:25px;
+        border-radius: 10px;
+    }
+}
+
+.course-title{
+    text-align: center;
+    font-size: 28px;
+}
+.course-title span{
+    position: relative;
+}
+.course-title span::before{
+    content: '';
+    width:40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 18px;
+    right: -50px;
+}
+.course-title span::after{
+    content: '';
+    width:40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 18px;
+    right: 166px;
+}
+
+
+.aboutus-title{
+    text-align: center;
+    font-size: 20px;
+}
+.aboutus-title span{
+    position: relative;
+}
+
+.aboutus-title span::before{
+    content:'';
+    width: 45px;
+    height: 5px;
+    background-color: orangered;
+    position: absolute;
+    top: 16px;
+    right: -50px;
+}
+.aboutus-title span::after{
+    content:'';
+    width: 45px;
+    height: 5px;
+    background-color: orangered;
+    position: absolute;
+    top: 16px;
+    right: 69px;
+}
+.aboutus-sec{
+    background-color: antiquewhite;
+    margin-top: 15px;
+    padding: 60px;
+}
+
+.aboutus-sec p {
+    padding: 20px;
+    font-size: 17px;
+    line-height: 32px;
+    color:#6b6666
+}
+
+.aboutus-sec a {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color:#fff;
+    float: left;
+    margin-left: 40px;
+    font-size: 16px;
+    transition: .5s ease-in;
+}
+.aboutus-sec a:hover{
+    border-radius: 0 10px 0 10px;
+}
+.team-members{
+    background-color: bisque
+}
+
+
+.team-introduce{
+    position: absolute;
+    top: 95%;
+    left:50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    box-shadow: -1px 3px 7px 1px;
+    text-align: center;
+}
+.team-introduce h5{
+    margin: 30px 0 70px 0;
+    padding: 10px;
+}
+.team-introduce a{
+    border: 2px solid orange;
+    padding: 5px 1px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+.team-introduce a:hover{
+    background-color: orange;
+}
