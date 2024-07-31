@@ -225,3 +225,63 @@ figure img{
 .team-introduce a:hover{
     background-color: orange;
 }
+
+
+.products{
+    background-color: #f6dd00;
+}
+
+.products .card {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 20px;
+    
+    
+}
+.products .card .card-header{
+    overflow: hidden;
+}
+
+
+
+.products .card img{
+    transition:transform 2s ease-in;
+}
+
+.products .card:hover img{
+    transform: scale(1.2) rotate(15deg);
+}
+.products .card .card-body{
+    margin-top: 45px;
+}
+.products .card .card-body a{
+    background-color: orangered;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 4px 6px 8px 10px;
+    color:whitesmoke;
+    transition: 1s ease-in-out;
+}
+
+.products .card .card-body a:hover{
+    background-color: orange;
+    border-radius: 6px 8px 10px 12px;
+}
+
+.products .card .card-body .dates .num{
+    background-color: rgb(47, 180, 180);
+    width: 50px;
+    top: -45px;
+    right: 86px;
+    text-align: center;
+}
+.products .card .card-body .dates .text{
+    background-color: rgb(255, 38, 0);
+    width: 50px;
+    top: -70px;
+    right: 86px;
+    text-align: center;
+    
+}
