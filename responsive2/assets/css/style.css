@@ -285,3 +285,20 @@ figure img{
     text-align: center;
     
 }
+
+.feedbacks .card{
+    text-align: center;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.feedbacks .card i {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.feedbacks .card  i{
+    margin: 10px;
+}
+.feedbacks .card  div{
+    margin: 10px;
+}
