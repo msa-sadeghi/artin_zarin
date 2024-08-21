@@ -1,0 +1,39 @@
+.black{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.orange-red{
+    background-color: orangered;
+}
+
+
+.container {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.container  > div {
+    width: 100px;
+    background-color: red;
+    height: 100px;
+    margin: 15px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 22px;
+}
