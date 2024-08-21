@@ -1,0 +1,35 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: gray;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header h1{
+    background-color: rgba(179, 1, 1, 0.3);
+    align-self: center;
+    position: absolute;
+    margin-right: 45px;
+    /* border: 1px solid rebeccapurple; */
+    border-radius: 15px;
+    
+}
